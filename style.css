@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background: linear-gradient(to-top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+  background-image: url("033.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 89vh;
+}
+.form {
+  width: 300px;
+  height: 450px;
+  color: rgb(22, 45, 43);
+  background: linear-gradient(to-top, rgba(81, 76, 76, 0.8)50%,rgba(81, 76, 76, 0.8)50%);
+  position: absolute;
+  border: 2px solid wheat;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 18px;
+  padding: 45px 25px;
+  
+}
+
+.form h2 {
+  width: 300px;
+  font-size: 30px;
+  color: rgb(208, 114, 222);
+  text-align: center;
+  padding-left: 18px;
+  margin-bottom: 20px;
+}
+.form input {
+  width: 100%;
+  height: 30px;
+  padding-top: 11px;
+  margin-bottom: 15px;
+  background: transparent;
+  border-bottom: 1px solid whitesmoke;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  font-size: 17px;
+  letter-spacing: 1px;
+  outline: none;
+}
+.form input:focus {
+  outline: none;
+}
+::placeholder {
+  color: rgb(116, 5, 5);
+  font-family: 'Courier New';
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn {
+  font-size: 25px;
+  padding: 10PX 15PX;
+  background: transparent;
+  border: none;
+  margin-top: 10px;
+  margin-left: 81px;
+  cursor: pointer;
+}
+.btn a {
+  text-decoration: none;
+  color: rgba(141, 8, 85, 0.869);
+  font-weight: bold;
+}
+.btn a:hover {
+  color: rgb(39, 12, 77);
+}
+.link {
+  padding-top: 19px;
+  color: rgb(27, 9, 183);
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.link a {
+  text-decoration: none;
+  color: #f70a1a;
+  font-size: 20px;
+}
+.link a:hover {
+  color: rgb(200, 20, 62);
+}
+.liw{
+  padding-top: 15px;
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+ padding-bottom: 15px;
+}
+.liw a{
+  text-decoration: none;
+  color: rgb(31, 21, 17);
+}
+.liw a:hover{
+  color: rgb(50, 47, 49);
+}
+.icons a{
+color: white;
+text-decoration: none;
+}
+.icons ion-icon{
+  color: rgb(21, 61, 194);
+  font-size: 29px;
+  padding: 10px;
+  padding-top: 20px;
+  transition: 0.4s ease;
+}
+.icons ion-icon:hover{
+  color: crimson  ;
+}
